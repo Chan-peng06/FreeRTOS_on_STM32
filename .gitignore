@@ -1,0 +1,27 @@
+
+# 編譯產出的執行檔與物件檔
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# 靜態庫
+*.a
+*.lib
+
+# IDE 自動產生的快取與設定 (以 VS Code 與 STM32CubeIDE 為例)
+.settings/
+.project
+.cproject
+.vscode/
+bin/
+obj/
+Debug/
+Release/
+
+# 作業系統暫存檔
+.DS_Store
+Thumbs.db
